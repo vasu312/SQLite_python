@@ -7,6 +7,8 @@ cursor = connection.cursor()
 
 cursor.execute("SELECT * FROM Movies")
 
+# Print the Records from Movies Table
+
 data = cursor.fetchall()
 
 for Row in data:
